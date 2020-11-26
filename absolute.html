@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div {          
+            text-align: center;
+            border: 3px solid #000000;
+            color: white;
+        }
+        .relative {
+            background: tomato;
+            position: relative;
+            height: 400px;
+            width: 500px;
+            line-height: 350px;
+            top: 50px;
+            left: 50px;
+        }
+        .absolute{
+            background: violet ;
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;  
+            top: 200px;
+            left: 100px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">
+        I am parent div element
+        <div class="absolute">Block</a></div>
+    </div>
+    
+</body>
+</html>
